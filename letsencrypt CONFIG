@@ -1,0 +1,1 @@
+./tiny-ssl-reverse-proxy_linux_amd64 -cert "/etc/letsencrypt/live/DOMAIN.COM/fullchain.pem"  -key "/etc/letsencrypt/live/DOMAIN.COM/privkey.pem" -where "http://localhost:3000" -behind-tcp-proxy "http://localhost:80"
